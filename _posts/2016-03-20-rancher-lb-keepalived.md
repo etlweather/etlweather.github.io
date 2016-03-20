@@ -1,6 +1,8 @@
 ---
 layout: post
 title: High-availability load balancer with Rancher
+tags: [docker, rancher, high-availability, infrastructure]
+categories: [how-to]
 ---
 
 This example demonstrate one way of setting up a high-availability web service
