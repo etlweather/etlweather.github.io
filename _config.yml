@@ -17,13 +17,20 @@ baseurl: ""
 title: Ops Recipes
 
 # Short description of your site
-description: Solutions for things...
+description: Solutions for things in IT...
 
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
 navbar-links:
-  #GitHub: "https://github.com/etlweather"
+  Projects: 
+    - PostgreSQL Backup Script "https://github.com/etlweather/pg_back"
+    - Gaucho (Rancher API Client) "https://github.com/etlweather/gaucho"
+    - Git-Auto-Deploy "https://github.com/olipo186/Git-Auto-Deploy"
+    - Odoo Puppet Module "https://github.com/key-lime-box/puppet-odoo"
+    - mail - Java Mail Wrapper "https://github.com/key-lime-box/mail"
+    - SimpleMQ "https://github.com/key-lime-box/simplemq"
+
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
