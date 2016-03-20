@@ -1,12 +1,13 @@
 ---
 layout: post
 title: High-availability load balancer with Rancher
-bigimg: /img/posts/2016-03-20-rancher-lb-keepalived/rancher-example-01.png
 ---
 
 This example demonstrate one way of setting up a high-availability web service
 using *Docker*, [*Rancher*](http://rancher.com/) and *Keepalived*. The diagram 
-above is a representation of what we are going to achieve:
+below is a representation of what we are going to achieve:
+
+![Overall diagram](/img/posts/2016-03-20-rancher-lb-keepalived/rancher-example-01.png)
 
 ## Server/hosts infrastructure
 In this example, we are using 4 servers. In the concrete example this is based
